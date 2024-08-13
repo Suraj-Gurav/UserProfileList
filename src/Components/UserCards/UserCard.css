@@ -1,0 +1,80 @@
+.UserCardMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.UserCardContainer {
+    width: 22.35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.UserCardContainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.UserCardAvatarContainer {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.UserCardAvatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.UserCardContent {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.UserCardFieldValue {}
+
+.UserCardField {
+    margin: 5px 0;
+    color: #555555;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.UserCardIcon {
+    margin-right: 8px;
+    color: #777777;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f7f7f7;
+    border-top: 1px solid #e0e0e0;
+}
+
+.card-actions i {
+    color: #888888;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.card-actions i:hover {
+    color: #ff4d4d;
+    transform: scale(1.2);
+}

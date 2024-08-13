@@ -1,0 +1,92 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .modalHeader h2 {
+    margin: 0;
+  }
+  
+  .modalCloseButton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modalBody {
+    margin-bottom: 20px;
+  }
+  
+  .modalFormGroup {
+    margin-bottom: 5px;
+  }
+  
+  .modalFormGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .modalFormGroup input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .modalFooter {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modalCancelButton, .modalSaveButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .modalCancelButton {
+    background-color: #f5f5f5;
+    color: #555;
+  }
+  
+  .modalSaveButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .modalCancelButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .modalSaveButton:hover {
+    background-color: #0056b3;
+  }
+  
